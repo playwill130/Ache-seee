@@ -1,0 +1,204 @@
+body {
+    background-color: rgba(243, 244, 249, 1);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+.imagemLogo {
+    height: 200px;
+    width: 300px;
+
+}
+
+.divImagemLogo{
+    height: 200px;
+    width: 300px;
+    padding-top: 250px;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+;
+
+}
+.Login{
+    text-align: left;
+    font-size: 23px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(60, 57, 80);
+    font-weight:600;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    padding-top: 500px;
+
+}
+.retangulo1 {
+    width: 70px; 
+    height: 500px; 
+    background-color: white; 
+    transform: rotate(235deg);
+    position: absolute;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(16, 74, 139);
+    top: -150px;
+}
+.retangulo2{
+    width: 70px; 
+    height: 300px; 
+    background-color: white; 
+    transform: rotate(235deg);
+    position: absolute;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(16, 74, 139);
+    top:65px;
+
+}
+.logo2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+.ImagemNome{
+    width: 150px;
+}
+.UsuarioSenha{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 300px;
+    top: 460px;
+    
+}
+.Usuario{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(60, 57, 80);
+    font-size: 19;
+    font-weight: 550;
+}
+.inputUsuario{
+    background-color: rgba(243, 244, 249, 0);
+    border: 0.5px;
+    border-style: solid;
+    border-color: rgb(122, 122, 128);
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+input::placeholder {
+    color: rgb(122, 122, 128);
+    padding-left: 5px;
+}
+.EsqSenha{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(16, 74, 139);
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.botaoEntrar {
+    background-color: rgb(16, 74, 139);
+    width: 302px;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: none;
+    border-radius: 20px; /* Arredonda as bordas do botão */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao botão */
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Efeito de hover */
+
+.botaoEntrar:hover,
+.botaoCadastrar:hover {
+    background-color: #82a5c5; /* Altera a cor de fundo quando o cursor passa por cima */
+}
+
+/* Efeito de clique */
+.botaoEntrar:active,
+.botaoCadastrar:active {
+    background-color: #00060c; /* Altera a cor de fundo quando o botão é clicado */
+}
+
+.semcadastro{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(122, 122, 128);
+    font-size: 13px;
+}
+.ret1{
+    background-color: rgb(122, 122, 128);
+    width: 70px;
+    height: 2px;
+    top: 310px;
+    
+    position: absolute;
+}
+.ret2{
+    background-color: rgb(122, 122, 128);
+    width: 70px;
+    height: 2px;
+    top: 310px;
+    left: 232px;
+    position: absolute;
+}
+.botaoCadastrar {
+    width: 302px;
+    height: 40px;
+    color: rgb(16, 74, 139);
+    border: none; /* Removido o estilo de borda para evitar duplicação */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ajustado o alinhamento do texto */
+    border-radius: 20px; /* Arredonda as bordas do botão */
+    box-shadow: inset 0 0 0 2px rgb(16, 74, 139); /* Adiciona uma borda interna azul */
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+    text-decoration: none;
+} 
+/* Efeito de hover */
+
+.botaoEntrar:hover,
+.botaoCadastrar:hover {
+    background-color: #3193ee; /* Altera a cor de fundo quando o cursor passa por cima */
+}
+
+/* Efeito de clique */
+.botaoEntrar:active,
+.botaoCadastrar:active {
+    background-color: #00060c; /* Altera a cor de fundo quando o botão é clicado */
+}
+.retangulo3{
+    width: 70px; 
+    height: 300px; 
+    background-color: white; 
+    transform: rotate(235deg);
+    position: absolute;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(16, 74, 139);
+    top:355px;
+    right: 0;
+
+}
+.retangulo4{
+    width: 70px; 
+    height: 300px; 
+    background-color: white; 
+    transform: rotate(235deg);
+    position: absolute;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(16, 74, 139);
+    top:520px;
+    right: 65px;
+}
